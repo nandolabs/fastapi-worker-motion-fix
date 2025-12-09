@@ -1,0 +1,16 @@
+# This file is provided for backward compatibility.
+# For modern Python development, use pyproject.toml with uv:
+#   uv venv
+#   uv pip install -e ".[dev]"
+
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# dev dependencies
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+pytest-cov>=4.1.0
+httpx>=0.25.0
+ruff>=0.1.6
