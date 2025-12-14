@@ -42,6 +42,9 @@ This project provides a clean, battle-tested fix to ensure the worker runs relia
 ---
 
 ## Why This Matters for Your Project
+This is a common FastAPI issue when background workers are deployed via Docker, Supervisor, or systemd.
+
+
 
 If your application uses:
 
